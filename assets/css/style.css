@@ -1,0 +1,22 @@
+.bg{
+    border-radius:2px;
+    padding:2px;
+}
+.bg-angular{
+    background-color: #DD1B16;
+    color: white;
+}
+.bg-react{
+    background-color: #222222;
+    color: #00D8FF;
+}
+.bg-vanilla{
+    background-color:#F3E5AB;
+    color:black;
+}
+body{
+    background:url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/asanoha-400px.png");
+}
+.brand{
+    font-family: 'VT323';
+}

@@ -1,10 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="bsc">
     <head>
         <meta charset="utf-8">
         <title>Byte Size Code</title>
+        <!-- Font -->
+        <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+        <!-- Bootstrap Style Sheet -->
+        <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+        <!-- Custom Style Sheet -->
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
-    <body ng-app="bsc">
+    <body ng-controller="AppCtrl">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand brand" href="#">Byte Size Code</a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="#"><span class="bg bg-angular">Angular</span></a></li>
+                <li><a href="#"><span class="bg bg-react">React</span></a></li>
+                <li><a href="#"><span class="bg bg-vanilla">Vanilla</span></a></li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                  <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <!-- Main Content -->
+        <div id="main">
+            <!-- Title Jumbotron -->
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="brand">Byte Size Code</h1>
+                    <h3>Simply Javascript Components</h3>
+                </div>
+            </div>
+            <!-- Content Panel -->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Welcome to Byte Size Code</h3>
+              </div>
+              <div class="panel-body">
+                  <p>Your resource for simple un-opinionated javascript components you can use to boost your productivity.</p>
+                  <p>Select a page from the menu bar or type in what you are looking for into the search box to get started.</p>
+              </div>
+            </div>
+            <!-- Contribute Panel -->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Collaborate</h3>
+              </div>
+              <div class="panel-body">
+                  <p>See an error or room for improvement with this site? Want to add a Javascript component of your own?</p>
+                  <p>Headover to our Github repository and follow the README for more details!</p>
+                  <p><button><a href="https://github.com/mstaebler/bytesizecode">Collaborate</a></button></p>
+              </div>
+            </div>
+        </div>
     </body>
+    <footer class="footer panel panel-default">
+      <div class="panel-body">
+        <p>Made with <span class="glyphicon glyphicon-heart"></span> using <a href="">Bootstrap</a>,<a href=""> Angular </a>and <a href="">Node </a>
+        Check out the source code on <a href="https://github.com/mstaebler/bytesizecode">Github</a> or click <a href="">portfolio</a> to view my portfolio page.</p>
+      </div>
+    </footer>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <script src="app/app.module.js"></script>
 </html>
