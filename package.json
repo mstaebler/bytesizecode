@@ -1,0 +1,24 @@
+{
+  "name": "bytesizecode",
+  "version": "1.0.0",
+  "description": "Code Building Blocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstaebler/bytesizecode.git"
+  },
+  "keywords": [
+    "angular",
+    "javascript",
+    "tutorials"
+  ],
+  "author": "Mark Staebler",
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/mstaebler/bytesizecode/issues"
+  },
+  "homepage": "https://github.com/mstaebler/bytesizecode#readme"
+}
